@@ -4,19 +4,24 @@
   </head>
   <body>
   <script>
-  function house(){
-    var windows = prompt("Do you want windows on your house?")
-    var door = prompt("Do you want door on your house?")
-    var chimney prompt("Do you want chimney on your house?")
-    if (windows === "YES"){
-      console.log("    /\\\n   /  \\\n  /    \\\n /      \\\n/        \\\n|        |\n|  o  o  |\n|    _   |\n|   | |  |\n|   | |  |")
-
-    }
-    console.log("    /\\\n   /  \\\n  /    \\\n /      \\\n/        \\\n|        |\n|  o  o  |\n|    _   |\n|   | |  |\n|   | |  |")
+  var chimney = prompt("Do you want chimney on your house?");
+  var windows = prompt("Do you want windows on your house?");
+  var door = prompt("Do you want door on your house?");
+  if( chimney === "yes"){
+    console.log("        ~~~~~\n       ||\n    /\\ ||\n   /  \\||\n  /    ||\n /      \\\n/        \\\n|        |")
+  }else {
+    console.log("    /\\\n   /  \\\n  /    \\\n /      \\\n/        \\\n|        |")
   }
-    if ( numbers === "1"){
-
-    }
+  if( windows === "yes"){
+    console.log("|  o  o  |")
+  }else {
+    console.log("|        |")
+  }
+  if( door === "yes"){
+    console.log("|    _   |\n|   | |  |\n|   | |  |")
+  }else {
+    console.log("|        |\n|        |\n|        |")
+  }
   </script>
   </body>
 </html>
