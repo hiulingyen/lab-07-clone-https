@@ -4,31 +4,31 @@
   </head>
   <body>
   <script>
-  var numbers = prompt("How many rees would you like? I can draw up to 6 trees for you. ")
+  var numbers = parseInt(prompt("How many rees would you like? I can draw up to 6 trees for you. "));
   function Trees(){
     console.log("   /\\\n  /  \\\n  /  \\\n /    \\\n/      \\\n   ||\n   ||");
   }
-    if ( numbers === "1"){
+    if ( numbers === 1){
       Trees();
-    } else if (numbers === "2"){
-      Trees();
-      Trees();
-    } else if (numbers === "3"){
+    } else if (numbers === 2){
       Trees();
       Trees();
-      Trees();
-    }else if (numbers === "4"){
+    } else if (numbers === 3){
       Trees();
       Trees();
       Trees();
-      Trees();
-    }else if (numbers === "5"){
+    }else if (numbers === 4){
       Trees();
       Trees();
       Trees();
       Trees();
+    }else if (numbers === 5){
       Trees();
-    }else if (numbers === "6"){
+      Trees();
+      Trees();
+      Trees();
+      Trees();
+    }else if (numbers === 6){
       Trees();
       Trees();
       Trees();
